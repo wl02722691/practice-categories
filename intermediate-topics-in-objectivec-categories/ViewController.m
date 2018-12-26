@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NSString+Translator.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *englishPhrase = @"Someone just stole my computer and ate my luchch.";
+    
+    NSString *kennethPhrase = [englishPhrase kennethize:englishPhrase];
+    
+    NSArray *chrishMasArray = @[@"GO two blocks.",@"Turn left.",@"GO three more blocks.",@"Lock up.", @"You can't miss it."];
+    
+    for (NSString *phrase in chrishMasArray) {
+        NSLog(@"%@",[phrase gabify:phrase]);
+    }
+        
 }
 
 

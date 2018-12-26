@@ -13,6 +13,7 @@
 		691BBEDF21D21DDA00AE6F4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 691BBEDE21D21DDA00AE6F4B /* Assets.xcassets */; };
 		691BBEE221D21DDA00AE6F4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 691BBEE021D21DDA00AE6F4B /* LaunchScreen.storyboard */; };
 		691BBEE521D21DDA00AE6F4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 691BBEE421D21DDA00AE6F4B /* main.m */; };
+		691BBEF021D222E600AE6F4B /* NSString+Translator.m in Sources */ = {isa = PBXBuildFile; fileRef = 691BBEEF21D222E600AE6F4B /* NSString+Translator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		691BBEE121D21DDA00AE6F4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		691BBEE321D21DDA00AE6F4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		691BBEE421D21DDA00AE6F4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		691BBEEE21D222E600AE6F4B /* NSString+Translator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Translator.h"; sourceTree = "<group>"; };
+		691BBEEF21D222E600AE6F4B /* NSString+Translator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Translator.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				691BBEE021D21DDA00AE6F4B /* LaunchScreen.storyboard */,
 				691BBEE321D21DDA00AE6F4B /* Info.plist */,
 				691BBEE421D21DDA00AE6F4B /* main.m */,
+				691BBEEE21D222E600AE6F4B /* NSString+Translator.h */,
+				691BBEEF21D222E600AE6F4B /* NSString+Translator.m */,
 			);
 			path = "intermediate-topics-in-objectivec-categories";
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 			files = (
 				691BBEDA21D21DD900AE6F4B /* ViewController.m in Sources */,
 				691BBEE521D21DDA00AE6F4B /* main.m in Sources */,
+				691BBEF021D222E600AE6F4B /* NSString+Translator.m in Sources */,
 				691BBED721D21DD900AE6F4B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +292,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CHZWYBA9N7;
 				INFOPLIST_FILE = "intermediate-topics-in-objectivec-categories/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CHZWYBA9N7;
 				INFOPLIST_FILE = "intermediate-topics-in-objectivec-categories/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
